@@ -1,0 +1,5 @@
+1. What happens when you initialize a repository? Why do you need to do it?
+
+	- When i initial a new repository a '.git' directory is created with no commits.
+	  When running 'git status' it says that there is only an 'Initial commit'.
+	- I need to do it to create n new repository.

@@ -1,0 +1,52 @@
+1. How did viewing a diff between two versions of a file help you to see the bug that was introduced?
+
+   - The difference between both files are visible directly.
+   - The focus is only on the differences so only the main parts are visible.
+
+
+2. How could having easy access to the entire history of a file make you  a more efficient programmer in
+   the long term?
+
+   - I can see when the last changes are made.
+   - Its easy to went back to an earlier version of a file.
+   - Finding and resolving bugs may not take as much time as it does without version control.
+
+
+3. What do you think are the pros and cons of manually choosing when to create a commit, like you do in 
+   Git, vs having versions automatically saved, like Google docs does?
+
+   Pros:
+   - There are only commits the programmer really want.
+   - There are no useless committs with broken code.
+
+   Cons:
+   - There could be big commits when committing to late.
+   - The programmer could forgot about committing changes.
+
+
+4. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while
+   others, like Google Docs, treat each file separately?
+  
+   - Some version control systems allow saving multiple files beacause they are build to control files that
+     depends on each other. On the otherhand there are version control systems, like Google Docs, where
+     changing one file do not take effect on other files - so there is no logical clue to save multipe files
+     a time.   
+
+5. How can you use the commands git log and git diff to view the history of files?
+
+	1. First run the command 'git log' in the repository to see a list of all commits. 
+	2. Search for the commits you are interested in and type 'q' to leave the 'git log' command.
+	3. Run the command 'git diff coomitID_Old commitID_New' where commitID_Old is the commit id of the version
+	   before the changes you are interested in and commitID_New is the commit you are interested in.
+
+6. How might using version control make you more confident to make changes that could break something?
+
+	- Due to the 'git checkout commitID' command i am able to go back to a previous working copy of my programm.
+	- If there is a bug in code and i dont now the exactly commit which causes the error, i am able to checkout
+	  the last commits and run the code. If i found the latest working version i can use 'git diff' to identify
+	  the exact error.
+
+7. Now that you have your workspace set up, what do you want to try using Git for?
+
+	- For programming projects.
+	- For documents which sensitive data.	  
