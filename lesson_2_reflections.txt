@@ -3,3 +3,10 @@
 	- When i initial a new repository a '.git' directory is created with no commits.
 	  When running 'git status' it says that there is only an 'Initial commit'.
 	- I need to do it to create n new repository.
+
+2. How is the staging area different from the working directory and the repository? 
+   What value do you think it offers?
+
+   - The staging area stores all information about what will change with the next commit.
+   - Staging areas allows to add several files/changes to the repository/working directoroy with
+     one commit.    
