@@ -25,3 +25,7 @@
 
    - With a branch with a working copy it is easy to rollback all changes.
    - Its easier to try different solutions in different branches   
+
+5. How do the diagrams help you visualize the branch structure?
+
+	- They show exactly what changes are made in the existing branches.   	
