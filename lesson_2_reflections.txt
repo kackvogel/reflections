@@ -10,3 +10,8 @@
    - The staging area stores all information about what will change with the next commit.
    - Staging areas allows to add several files/changes to the repository/working directoroy with
      one commit.    
+
+3. How can you use the staging area to make sure you have one commit per logical change?
+
+	- First run 'git diff' command to compare the working directory with the staging area.
+	  Next run 'git diff --staged' to compare the staging area with the most recent commit.     
