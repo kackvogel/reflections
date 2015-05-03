@@ -15,3 +15,13 @@
 
 	- First run 'git diff' command to compare the working directory with the staging area.
 	  Next run 'git diff --staged' to compare the staging area with the most recent commit.     
+
+4. What are some situations when branches would be helpful in keeping your history organized?
+   How would branches help?
+
+   - Branches would be helpful when:
+   		# adding/changing critical code to the project
+   		# coding in a team where they working on different parts
+
+   - With a branch with a working copy it is easy to rollback all changes.
+   - Its easier to try different solutions in different branches   
