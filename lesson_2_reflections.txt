@@ -29,3 +29,16 @@
 5. How do the diagrams help you visualize the branch structure?
 
 	- They show exactly what changes are made in the existing branches.   	
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram that 
+   way we do?
+
+   - The result of merging to branches together is a new commit with a version which contains
+     all changes of both merged versions. 
+   - The commits are sorted by its creation time therefore the parent of one commit is not the one
+   	 below. To compare a commit without knowing its parent git has the 'show' command.
+   	 (e.g git show commitID).
+   - Reasons for presentation:
+   		# To have an overview about all branches.
+   		# To identify which commit belongs to which branch.
+   		# To know when a merge was done.
