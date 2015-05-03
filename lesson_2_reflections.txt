@@ -42,3 +42,13 @@
    		# To have an overview about all branches.
    		# To identify which commit belongs to which branch.
    		# To know when a merge was done.
+
+7. What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+	Pros:
+	- Fast merge of simple changes and non conflicting changes.
+	- Good presentation of conflicting parts.
+
+	Cons:
+	- If someone does make more logical changes during one commit it might result in a long
+	  merge.
